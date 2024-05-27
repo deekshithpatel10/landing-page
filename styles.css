@@ -140,7 +140,7 @@
 
 .part-four {
    background-color: #1F2937;
-   padding: 30px 350px 10px;
+   padding: 30px 350px 30px;
 }
 
 .part-four .sign-up-block {
@@ -172,4 +172,12 @@
    font-weight: bold;
    padding: 0px 14px;
    align-self: center;
+}
+
+.footer {
+   padding: 15px 0px 15px;
+   background-color: white;
+   font-size: 16px;
+   text-align: right;
+   margin-right: 80px
 }
