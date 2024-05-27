@@ -137,3 +137,39 @@
    font-size: 26px;
    font-weight: bold;
 }
+
+.part-four {
+   background-color: #1F2937;
+   padding: 30px 350px 10px;
+}
+
+.part-four .sign-up-block {
+   background-color: #3882F6;
+   padding: 20px 80px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.part-four .text .bold {
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.part-four .text .light {
+   color: white;
+}
+
+.part-four button {
+   height: 26px;
+   background-color: #3882F6;
+   border-style: solid;
+   border-color: white;
+   border-radius: 6px;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 0px 14px;
+   align-self: center;
+}
