@@ -36,6 +36,7 @@
 .part-one .header .links a {
    text-decoration: none;
    font-size: 18px;
+   font-weight: bold;
    color: red;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -70,4 +71,50 @@
    width: 400px;
    height: 200px;
    border: 2px solid gray;
+}
+
+.part-two {
+   display: flex;
+   flex-direction: column;
+   padding: 25px 150px 50px 150px;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+
+.part-two .images {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 35px;
+}
+
+.part-two .header {
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937;
+}
+
+.part-two .images .item {
+   width: 240px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.part-two .item .name {
+   font-weight: bold;
+   font-size: 22px;
+   margin: 3px;
+}
+
+.part-two .item p {
+   font-size: 16px;
+   text-align: center;
+}
+
+.part-two .images img {
+   width: 220px;
+   height: 120px;
+   border: 2px solid blue;
+   border-radius: 10px;
 }
